@@ -1,0 +1,97 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+ENV/
+env/
+.conda/
+.pyenv/
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*.ipynb_checkpoints/*
+.colab/
+
+# =========================
+# IDE / Editor Files
+# =========================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# OS Specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & Temp
+# =========================
+*.log
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+*.secret
+*.json
+token.txt
+config.json
+credentials.json
+
+# =========================
+# LangChain / ML Specific
+# =========================
+vectorstore/
+checkpoints/
+cache/
+.wandb/
+mlruns/
+output/
+runs/
+artifacts/
+
+# =========================
+# PyCharm
+# =========================
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# =========================
+# Others
+# =========================
+*.tar.gz
+*.zip
+*.gz
+*.rar
+# =========================
+# Logs
+# =========================
+logs/
+*.log
