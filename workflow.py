@@ -1,6 +1,6 @@
 from typing import TypedDict
 from langgraph.graph import StateGraph, END
-from fashion_search_tool import fashion_search_node
+from tools.fashion_tool import fashion_search_node
 
 
 # 1. Define State
@@ -105,3 +105,4 @@ if __name__ == "__main__":
         print(f"User: {q}")
         print(f"Bot: {result['response']}")
         print("-" * 50)
+       
